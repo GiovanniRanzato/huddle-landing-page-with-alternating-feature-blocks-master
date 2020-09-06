@@ -1,12 +1,10 @@
 .heroSection{
     min-height: 100vh;
+    width: 100%;
     background-color: var(--very-pale-cyan);
     background-image: url("../../images/bg-hero-mobile.svg");
     background-size: cover;
-    background-repeat: none;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
+    background-repeat: no-repeat;
 }
 .content{
     display: flex;
@@ -26,9 +24,11 @@
     margin-bottom: 32px;
 }
 .cover{
-    margin: 32px;
-    max-width: 300px;
+    
+    width: 100%;
+    max-width: 310px;
     min-height: 265px;
+    margin: 0 auto;
     background-image: url("../../images/illustration-mockups.svg");
     background-size: 100%;
     background-repeat: no-repeat;
