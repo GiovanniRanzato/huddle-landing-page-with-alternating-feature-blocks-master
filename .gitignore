@@ -3,7 +3,8 @@
 ## Please do not remove line 5 - thanks! 🙂 ##
 ###############################################
 *.sketch
-
+# Challenge
+/challenge_features
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
