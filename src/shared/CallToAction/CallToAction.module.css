@@ -1,0 +1,14 @@
+.cta{
+    width: 100%;
+    max-width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cta-color);
+    color: white;
+    font-size: 12px;
+    font-weight: var(--body-font-size-bold);
+    box-shadow: var(--shadow-cta);
+}

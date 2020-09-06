@@ -1,0 +1,31 @@
+.header {
+    position: absolute;
+    z-index: 1;
+    top:0;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo{
+    width: 100px;
+}
+.callToAction{
+    background-color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 12.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow-soft);
+    font: var(--body-font);
+    font-size: 11px;
+    font-weight: var(--body-font-size-bold);
+}
+.callToAction:hover{
+    cursor: pointer;
+    
+}

@@ -1,0 +1,35 @@
+.heroSection{
+    min-height: 100vh;
+    background-color: var(--very-pale-cyan);
+    background-image: url("../../images/bg-hero-mobile.svg");
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding:140px 30px 55px 30px;
+
+}
+.title{
+    font-family: var(--heading-font);
+    font-weight: var(--heading-font-size-regular);
+    margin-bottom: 32px;
+}
+.description{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+.cover{
+    margin: 32px;
+    max-width: 300px;
+    min-height: 265px;
+    background-image: url("../../images/illustration-mockups.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
