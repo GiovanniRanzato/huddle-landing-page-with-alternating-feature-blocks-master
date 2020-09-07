@@ -6,6 +6,10 @@ import facebookIcon from '../images/facebook-brands.svg';
 import twittwerIcon from '../images/twitter-brands.svg';
 import instagramIcon from '../images/instagram-brands.svg';
 
+import positionIcon from '../images/icon-location.svg';
+import phoneIcon from '../images/icon-phone.svg';
+import emailIcon from '../images/icon-email.svg';
+
 export const CONTENTS = [{
     id: 'cont-1',
     title: 'Grow Together',
@@ -52,14 +56,14 @@ export const FEATURE_CARD = {
 
 export const FOOTER = {
     info: [{
+        icon: positionIcon,
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        icon: ""
     },{
+        icon: phoneIcon,
         text: "+1-543-123-4567",
-        icon: ""
     },{
+        icon: emailIcon,
         text: "example@fylo.com",
-        icon: ""
     }],
     links: [{
         label:"About Us",
@@ -95,5 +99,5 @@ export const FOOTER = {
         path: "#",
         label: "instagram"
     }],
-    copyright: "&copy; Copyright 2018 Huddle. All rights reserved."
+    copyright: "\u00A9 Copyright 2018 Huddle. All rights reserved."
 }

@@ -1,17 +1,82 @@
 .footer {
-    height: 500px;
-    background-color: var(--very-dark-cyan)
+    padding: 140px 20px 50px 20px;
+    background-color: var(--very-dark-cyan);
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    color: white;
 }
+.footer ul {
+    list-style: none;
+}
+/* INFO */
+.info{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+.info .icon {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.info li{
+    margin-bottom: 20px;
+    padding-left: 50px;
+} 
+.logo{
+    width: 165px;
+    margin-bottom: 30px;
+}
+
 .icon{
-    width: 40px;
-    height: 40px;
-    border: 2px solid white;
-    border-radius: 20px;
+    width: 20px;
+    height: 20px;
     display: flex;
     justify-content: center;
     align-items: center ;
 }
-.footer img  {
-    fill: white;
-    height: 18px;
+/* LINK */
+.link {
+    margin-bottom: 25px;
+}
+.link a{
+    text-decoration: none;;
+    color: white;
+    transition: color 0.5s ease-out;
+}
+.link a:hover{
+    color: var(--cta-color);
+}
+
+/* SOCIAL */
+.social {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 20px 0;
+}
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: background-color 0.5s ease-out;
+    margin: 0 15px;
+}
+.socialIcon:hover{
+    cursor:pointer;
+    background-color: var(--cta-color);
+}
+.socialIcon img {
+    height: 20px;
+}
+/* COPYRIGHT */
+.copyright{
+    text-align: center;
+    font-size: 14px;
 }
