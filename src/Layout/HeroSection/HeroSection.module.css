@@ -13,7 +13,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding:140px var(--spacing-md) 55px var(--spacing-md) ;
+    padding:140px var(--spacing-md) 55px var(--spacing-md);
 
 }
 .title{
@@ -27,7 +27,6 @@
     margin-bottom: 32px;
 }
 .cover{
-    
     width: 100%;
     max-width: 310px;
     min-height: 265px;
@@ -35,4 +34,44 @@
     background-image: url("../../images/illustration-mockups.svg");
     background-size: 100%;
     background-repeat: no-repeat;
+}
+@media only screen and (min-width:1200px){
+    .heroSection{
+        flex-flow: row;
+        min-height: 720px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .content{
+        max-width: 670px;
+        padding-left:var(--spacing-xxl);
+        align-items: flex-start;
+    }
+    .cover{
+        position: relative;
+        top:25px;
+        margin-right: var(--spacing-xxl);
+        max-width: 675px;
+        height: 500px;
+    }
+    .title{
+        max-width: 500px;
+        font-size: 40px;
+    }
+    .description{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:1600px){
+    .heroSection{
+        min-height: 900px;
+        background-image: url("../../images/bg-hero-desktop.svg");
+    }
+    .content{
+        max-width: 780px;
+    }
+    .cover{
+        max-width: 800px;
+        height: 650px;
+    }
 }

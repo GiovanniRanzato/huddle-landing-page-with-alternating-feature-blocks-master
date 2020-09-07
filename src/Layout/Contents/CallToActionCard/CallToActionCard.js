@@ -9,7 +9,7 @@ const CallToActionCard = () => {
             <h3 className={classes.descriprion}>
                 {CALL_TO_ACTION_CARD.description}
             </h3>
-            <CallToAction />
+            <CallToAction xl />
         </div>);
 }
 export default CallToActionCard;

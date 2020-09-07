@@ -27,3 +27,30 @@
     line-height: 1.5;
     margin: 0 var(--spacing-md) var(--spacing-md) var(--spacing-md);
 }
+@media only screen and (min-width: 1200px){
+    .featureCard{
+        flex-flow: row-reverse;
+        align-items: center;
+        max-width: 1250px;
+        height: 450px;
+    }
+    .featureCard:nth-child(2n+0){
+        flex-flow: row;
+    }
+    .media {
+        margin: 0;
+    }
+    .media img {
+        max-width: 450px;
+        height: 100%;
+    }
+    .content{
+        margin: 0 120px
+    }
+    .title{
+        font-size: 30px;
+    }
+    .description{
+        font-size: 18px;
+    }
+}

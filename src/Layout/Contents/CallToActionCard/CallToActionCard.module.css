@@ -18,3 +18,14 @@
     margin-bottom: var(--spacing-md);
     font-size: 18px;
 }
+
+@media only screen and (min-width: 1200px){
+    .callToActionCard{
+        width: 800px;
+        height: 300px;
+        bottom: -150px;
+    }
+    .descriprion{    
+        font-size: 40px;
+    }
+}
