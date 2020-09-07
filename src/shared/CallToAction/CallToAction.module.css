@@ -11,4 +11,9 @@
     font-size: 12px;
     font-weight: var(--body-font-size-bold);
     box-shadow: var(--shadow-cta);
+    transition: opacity 0.5s ease-out;
+}
+.cta:hover{
+    opacity: 0.65;
+    cursor: pointer;
 }

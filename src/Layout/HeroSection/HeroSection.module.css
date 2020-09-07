@@ -1,4 +1,7 @@
 .heroSection{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     min-height: 100vh;
     width: 100%;
     background-color: var(--very-pale-cyan);
@@ -10,7 +13,7 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding:140px 30px 55px 30px;
+    padding:140px var(--spacing-md) 55px var(--spacing-md) ;
 
 }
 .title{
@@ -28,7 +31,7 @@
     width: 100%;
     max-width: 310px;
     min-height: 265px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     background-image: url("../../images/illustration-mockups.svg");
     background-size: 100%;
     background-repeat: no-repeat;

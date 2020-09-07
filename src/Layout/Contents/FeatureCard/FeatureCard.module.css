@@ -1,0 +1,29 @@
+.featureCard{
+    display: flex;
+    flex-flow: column;
+    margin: var(--spacing-sm);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-soft);
+}
+.media{
+    width:100%;
+    padding: var(--spacing-sm);
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.media img {
+    width: 100%;
+    max-width: 320px;
+}
+.title{
+    font-family: var(--heading-font);
+    font-weight: var(--heading-font-size-regular);
+    font-size: 23px;
+    margin: 0 var(--spacing-md) 20px var(--spacing-md);
+}
+.description{
+    color: var(--grayish-blue);
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 var(--spacing-md) var(--spacing-md) var(--spacing-md);
+}

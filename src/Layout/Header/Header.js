@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './Header.module.css'
 import logoImg from '../../images/logo.svg'
 
-import {HEADER} from '../../Config/Texts';
+import {HEADER} from '../../Config/Config';
 
 const Header = ()=>{
     return (<header className={classes.header}>

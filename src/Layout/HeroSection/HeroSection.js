@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './HeroSection.module.css';
 
 import CallToAction from '../../shared/CallToAction/CallToAction';
-import {HERO_SECTION} from "../../Config/Texts";
+import {HERO_SECTION} from "../../Config/Config";
 
 const HeroSection = (props)=>{
     return (<section className={classes.heroSection}>

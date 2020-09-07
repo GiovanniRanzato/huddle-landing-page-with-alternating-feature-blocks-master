@@ -5,8 +5,15 @@
   --grayish-blue:   hsl(208, 11%, 55%);
   --grayish-blue-025:   hsla(208, 11%, 55%,0.25);
   --cta-color: hsl(330, 100%, 65%);
-  --cta-color-025: hsla(330, 100%, 65%, 0.25);;
-  
+  --cta-color-025: hsla(330, 100%, 65%, 0.25);
+  /* SPACING */
+  --spacing-xs: 10px;
+  --spacing-sm: 20px;
+  --spacing-md: 30px;
+  --spacing-lg: 40px;
+  --spacing-xl: 50px;
+  /* BORDER */
+  --border-radius: 20px;
 
 /* Font for heading */ 
   --heading-font: 'Poppins', sans-serif;
@@ -16,7 +23,7 @@
   --body-font-size-regular: 400;
   --body-font-size-bold: 700;
 
-  --shadow: 0px 18px 20px 5px var(--grayish-blue025);
+  --shadow: 0px 15px 20px 4px var(--grayish-blue-025);
   --shadow-soft: 0px 10px 20px 2px var(--grayish-blue-025);
   --shadow-cta: 0px 10px 20px 2px var(--cta-color-025);
 }
